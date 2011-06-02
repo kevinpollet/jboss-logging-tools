@@ -20,7 +20,7 @@
  */
 package org.jboss.logging.generator;
 
-import org.jboss.logging.Annotations.FormatType;
+import org.jboss.logging.generator.Annotations.FormatType;
 
 /**
  * @author <a href="mailto:jperkins@redhat.com">James R. Perkins</a> - 20.Feb.2011

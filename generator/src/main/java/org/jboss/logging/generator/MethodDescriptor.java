@@ -21,9 +21,8 @@
  */
 package org.jboss.logging.generator;
 
-import org.jboss.logging.Annotations.FormatType;
-import org.jboss.logging.LoggingTools;
-import org.jboss.logging.util.ElementHelper;
+import org.jboss.logging.generator.Annotations.FormatType;
+import org.jboss.logging.generator.util.ElementHelper;
 
 import javax.lang.model.element.AnnotationMirror;
 import javax.lang.model.element.AnnotationValue;
@@ -36,7 +35,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-import static org.jboss.logging.LoggingTools.annotations;
+import static org.jboss.logging.generator.LoggingTools.annotations;
 
 /**
  * @author <a href="mailto:jperkins@redhat.com">James R. Perkins</a>

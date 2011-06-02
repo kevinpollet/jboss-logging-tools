@@ -1,7 +1,5 @@
 package org.jboss.logging.generator;
 
-import org.jboss.logging.AbstractTool;
-
 import javax.annotation.processing.ProcessingEnvironment;
 import javax.annotation.processing.SupportedOptions;
 import javax.lang.model.element.TypeElement;
@@ -13,7 +11,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-import static org.jboss.logging.util.ElementHelper.getPrimaryClassNamePrefix;
+import static org.jboss.logging.generator.util.ElementHelper.getPrimaryClassNamePrefix;
 
 /**
  * The generator of skeletal

@@ -20,18 +20,16 @@
  */
 package org.jboss.logging.generator;
 
-import org.jboss.logging.AbstractTool;
-import org.jboss.logging.LoggingTools;
-import org.jboss.logging.model.ImplementationClassModel;
-import org.jboss.logging.model.MessageBundleImplementor;
-import org.jboss.logging.model.MessageLoggerImplementor;
+import org.jboss.logging.generator.model.ImplementationClassModel;
+import org.jboss.logging.generator.model.MessageBundleImplementor;
+import org.jboss.logging.generator.model.MessageLoggerImplementor;
 
 import javax.annotation.processing.ProcessingEnvironment;
 import javax.lang.model.element.TypeElement;
 import javax.lang.model.type.TypeMirror;
 import java.io.IOException;
 
-import static org.jboss.logging.LoggingTools.annotations;
+import static org.jboss.logging.generator.LoggingTools.annotations;
 
 /**
  * A generator for creating implementations of message bundle and logging
